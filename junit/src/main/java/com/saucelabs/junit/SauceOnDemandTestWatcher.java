@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
+/*
  * {@link TestWatcher} subclass that will mark a Sauce OnDemand job as passed or failed depending on the result
  * of the test case being executed.
  *

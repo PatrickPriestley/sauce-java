@@ -37,7 +37,7 @@ public class WebDriverDemoShootoutTest implements SauceOnDemandSessionIdProvider
         capabilities.setCapability("version", "5");
         capabilities.setCapability("platform", Platform.XP);
         this.driver = new RemoteWebDriver(
-                new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() + "@ondemand.saucelabs.com:80/wd/hub"),
+                new URL("http://influitive_dev:b372fec3-0552-4fb6-98bb-a027d82958b9@ondemand.saucelabs.com:80/wd/hub"),
                 capabilities);
         driver.get("http://tutorialapp.saucelabs.com");
         this.sessionId = ((RemoteWebDriver) driver).getSessionId().toString();
