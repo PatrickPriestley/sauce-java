@@ -59,12 +59,12 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     public static LinkedList browsersStrings() throws Exception {
 
         LinkedList browsers = new LinkedList();
-        //browsers.add(new String[]{"Windows 2003", null, "chrome"});
+        browsers.add(new String[]{"Windows 2003", null, "chrome"});
         browsers.add(new String[]{"Windows 2003", "17", "firefox"});
         browsers.add(new String[]{"MAC", "17", "firefox"});
         browsers.add(new String[]{"MAC", "5", "safari"});
         browsers.add(new String[]{"XP", "8", "internet explorer"});
-        //browsers.add(new String[]{"Windows 7", "9", "internet explorer"});
+        browsers.add(new String[]{"Windows 7", "9", "internet explorer"});
         browsers.add(new String[]{"Windows 7", "10", "internet explorer"});
 
         return browsers;
